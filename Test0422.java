@@ -6,6 +6,7 @@
 		new B().maxFunc(x, y);
 		new C().avgFunc(x, y);
 	}
+<<<<<<< HEAD
 
 	class B
 	{
@@ -22,3 +23,11 @@
 		}
 	}
 ]
+=======
+	public class C{
+		public void avgFunc(int x, int y) {
+			System.out.println("%f", (x + y) / 2);
+		}
+	}
+}
+>>>>>>> b2c3f86de9d839d363ab836fe8d3a7f2b96c0f94
