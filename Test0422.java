@@ -6,4 +6,19 @@
 		new B().maxFunc(x, y);
 		new C().avgFunc(x, y);
 	}
-}
+
+	class B
+	{
+		public static void maxFunc (String[] args)
+		{
+			if (x > y)
+			{
+				System.out printf("x is MAX!!");
+			}
+			else if (y > x)
+			{
+				System.out printf("y is MAX!!");
+			}
+		}
+	}
+]
