@@ -6,9 +6,8 @@
 		new B().maxFunc(x, y);
 		new C().avgFunc(x, y);
 	}
-<<<<<<< HEAD
 
-	class B
+	public class B
 	{
 		public static void maxFunc (String[] args)
 		{
@@ -22,12 +21,25 @@
 			}
 		}
 	}
-]
-=======
+
 	public class C{
 		public void avgFunc(int x, int y) {
 			System.out.println("%f", (x + y) / 2);
 		}
 	}
+
+	public class A
+	{
+		public void minFunc(int x,int y)
+		{
+			if(x>y)
+			{
+				System.out.println("y is min");
+			}
+			else if
+			{
+				System.out.println("x is min");
+			}
+	}
 }
->>>>>>> b2c3f86de9d839d363ab836fe8d3a7f2b96c0f94
+
